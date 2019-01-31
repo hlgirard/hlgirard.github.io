@@ -28,14 +28,14 @@
 }
 
 #experience {
-	background:url('images/experience.jpg') no-repeat center center;
+	background:url('images/experience.jpg') no-repeat left center;
 	background-size: cover;
 	color: #fff;
 	height: 300px;
 }
 
-#workexp {
-	background:url('images/officerpic.JPG') no-repeat center center;
+#jumbopic {
+	background:url('images/portrait_hl.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
 	height: 300px;
