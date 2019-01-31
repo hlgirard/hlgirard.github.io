@@ -1,0 +1,41 @@
+.navbar a {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 14px 10px;
+}
+
+.btn{
+	margin-top: 5px;
+}
+
+.page-body{
+	padding: 40px 15px;
+}
+
+.page-body h1{
+	text-align: center;
+	font-size: 45px;
+}
+
+.page-body h2{
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 2px;
+}
+
+
+.img{
+	width: 300px;
+}
+
+@media (min-width: 800px) {
+
+	.img-thumbnail{
+		margin-top: 50px;
+	}
+
+	.img{
+		margin-top: 30px;
+	}
+}
