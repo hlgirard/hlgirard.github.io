@@ -56,9 +56,14 @@
 	height: 100px;
 }
 
-.img{
-	height: 175px;
+.thumbnail{
+	margin-top: 30px;
+	object-fit: contain;
+	object-position: center;
+	width: 100%;
+	max-height: 200px;
 }
+
 
 @media (min-width: 800px) {
 
