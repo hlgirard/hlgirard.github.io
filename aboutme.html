@@ -10,52 +10,49 @@
     <title>Henri-Louis Girard - About me</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="style_about.css" rel="stylesheet">
 
 
   </head>
 
   <body>
-   <div class="visible-md visible-lg">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
           <a class="navbar-brand" href="index.html">Henri-Louis Girard</a>
-        </div>
-        <div id="navbar" class="pull-right">
-          <ul class="nav navbar-nav">
-  			<li><a href="academics.html">Academics</a></li>
-  			<li><a href="research.html">Experience</a></li>
-  			<li class="active"><a href="aboutme.html">About me</a></li>
-          </ul>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-   </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbar-social" class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+              <li class="nav-item">
+                  <a class="nav-link p-2" href="https://github.com/hlgirard" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fa fa-github"></i>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link p-2" href="https://scholar.google.com/citations?user=FsQG_mwAAAAJ" target="_blank" rel="noopener" aria-label="scholar">
+                    <i class="fa fa-graduation-cap"></i>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link p-2" href="http://www.linkedin.com/in/hlgirard" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+              </li>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+              <li class="nav-item"><a class="nav-link" href="research.html">Experience</a></li>
+              <li class="nav-item active"><a class="nav-link" href="aboutme.html">About me</a></li>
+            </ul>
+          </div><!--/.navbar-collapse -->
+        </nav>
 
-   <div class="visible-xs visible-sm">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="page-body">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Henri-Louis Girard</a>
-        <div id="navbar" class="pull-right dropdown">
-          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-    		Menu
-  		  </button>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-  			<li><a href="academics.html">Academics</a></li>
-  			<li><a href="research.html">Experience</a></li>
-  			<li class="active"><a href="aboutme.html">About me</a></li>
-          </ul>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-   </div>
-
-    <div class="container">
-      <div class="page-body">
             <h1>About me</h1>
+
+            <br>
 
             <div class="row ">
                 <div class="col-md-8">
@@ -73,7 +70,7 @@
                         Thanks to the great infrastructure offered by UCLA and MIT, I took every opportunity to diversify my skill set and apply it to my research. Along the way, I learned complex imaging techniques (AFM, SEM), the basics of metal working (machining, welding), as well as data science and machine learning.
                     </p>
                     <p>
-                        Outside of the lab, I enjoy sailing in Boston Harbor, Salem sound and beyond. From leisurely cruises on MIT's Buzzard Bay 30 (MASHNEE) to competitive inshore and offshore regattas.
+                        Outside of the lab, I enjoy sailing in Boston Harbor, Salem sound and beyond. From leisurely cruises on MIT's Buzzard Bay 30 (Mashnee) to competitive inshore and offshore regattas.
                         I also enjoy taking advantage of the weather to go hiking or skiing in New England depending on the season.
                     </p>
 
@@ -111,9 +108,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer src="js/select.js"></script> <!--load fontawesome brand icons -->
   </body>
 </html>
