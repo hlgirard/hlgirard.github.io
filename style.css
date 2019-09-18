@@ -1,44 +1,46 @@
+.thumb-card{
+	object-fit: cover; /* Do not scale the image */
+	object-position: center; /* Center the image within the element */
+	width: 100%;
+	max-height: 250px;
+	margin-bottom: 1rem;
+}
+
+.carousel-caption h5 {
+	background: rgba(255, 255, 255, 0.55);
+	color: rgb(50, 50, 50)
+}
+
+.carousel-caption{
+	opacity:0;
+	transition:500ms ease-in-out;
+  }
+  .carousel-item:hover .carousel-caption{
+	opacity:1;
+  }
+
+.carousel-caption a {
+	color: rgb(50, 50, 50)
+}
+
 .navbar a {
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 14px 10px;
+}
+.card-header h2 button{
+	font-weight: 600;
+	color: rgb(0, 0, 0)
 }
 
 .btn{
 	margin-top: 5px;
 }
 
-.jumbotron {
-	background:url('images/PhotoHL.jpg') no-repeat center center;
-	background-size:cover;
-	color: #fff;
-	height: 500px
-}
 
 .mail {
 	color: #0B0080;
-}
-
-#academics {
-	background:url('images/RoyceHall.jpg') no-repeat center center;
-	background-size: cover;
-	color: #fff;
-	height: 300px;
-}
-
-#experience {
-	background:url('images/experience.jpg') no-repeat left center;
-	background-size: cover;
-	color: #fff;
-	height: 300px;
-}
-
-#jumbopic {
-	background:url('images/portrait_hl.jpg') no-repeat center center;
-	background-size: cover;
-	color: #fff;
-	height: 300px;
 }
 
 .page-body{
@@ -50,19 +52,18 @@
 	font-size: 45px;
 }
 
-.page-body h2{
-	text-transform: uppercase;
-	text-decoration: underline;
-	letter-spacing: 2px;
-}
-
 .img-thumbnail{
 	height: 100px;
 }
 
-.img{
-	height: 175px;
+.thumbnail{
+	margin-top: 30px;
+	object-fit: contain;
+	object-position: center;
+	width: 100%;
+	max-height: 200px;
 }
+
 
 @media (min-width: 800px) {
 
