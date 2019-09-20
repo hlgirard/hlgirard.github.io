@@ -5,22 +5,27 @@
 	max-height: 250px;
 	margin-bottom: 1rem;
 }
-
+/*
 .carousel-caption h5 {
 	background: rgba(255, 255, 255, 0.55);
 	color: rgb(50, 50, 50)
 }
 
 .carousel-caption{
-	opacity:0;
-	transition:500ms ease-in-out;
-  }
-  .carousel-item:hover .carousel-caption{
-	opacity:1;
-  }
-
+	width: 100%;
+	left: 0;
+	bottom: 50;
+}
+*/
 .carousel-caption a {
-	color: rgb(50, 50, 50)
+	color: rgb(255, 255, 255)
+}
+
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
 }
 
 .navbar a {
