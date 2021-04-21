@@ -40,13 +40,23 @@
               </li>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
-                <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-                <li class="nav-item"><a class="nav-link" href="software.html">Software</a></li>
-                <li class="nav-item active"><a class="nav-link" href="aboutme.html">About me</a></li>
-              </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+              <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+              <li class="nav-item"><a class="nav-link" href="software.html">Software</a></li>
+              <li class="nav-item"><a class="nav-link" href="aboutme.html">About me</a></li>
+            </ul>
           </div><!--/.navbar-collapse -->
+          <script>
+            var navClass = document.getElementsByClassName("nav-link");
+            var path = window.location.href;
+            
+            for (i = 0; i < navClass.length; i++) {
+             if (path.includes(navClass[i].href)) {
+              navClass[i].classList.add("active");
+              }
+            }
+          </script>
         </nav>
 
     <div class="page-body">
